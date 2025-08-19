@@ -2,14 +2,14 @@
   "name": "app",
   "version": "0.1.0",
   "main": "dist/index.js",
+  "type":"module",
   "directories": {
     "doc": "doc"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "ts-node src/index.ts",
-    "build": "tsc",
-    "start": "node dist"
+    "start": "node dist",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
